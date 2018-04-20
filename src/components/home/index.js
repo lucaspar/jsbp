@@ -1,5 +1,7 @@
+import Config from '../../common/appCommonClass';
+
 export default function home() {
 
-    alert('Initialized application :)');
+    let config = new Config();
 
 }

@@ -2,11 +2,16 @@ export default class Common {
 
     constructor() {
         this.startupMethod();
-        console.log("App Common Class created");
     }
 
+    // Just some visual output for the visitor
     startupMethod() {
-        this.started = true;
+        let el = document.getElementById('app');
+        el.innerHTML = '\
+            <h2 class="main-title">\
+                Automated development environment for JavaScript apps\
+            </h2>\
+            <p style="text-align:center;">It works :)</p>';
     }
 
 }
