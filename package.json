@@ -1,0 +1,32 @@
+{
+    "name": "JS-boilerplate",
+    "version": "0.1.0",
+    "description": "Boilerplate for JavaScript projects",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --config webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lucaspar/jsbp.git"
+    },
+    "author": "lucaspar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lucaspar/jsbp/issues"
+    },
+    "homepage": "https://github.com/jsbp/lucaspar",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "css-loader": "^0.28.11",
+        "style-loader": "^0.21.0",
+        "webpack": "^4.6.0",
+        "webpack-cli": "^2.0.14"
+    },
+    "dependencies": {
+        "plotly": "^1.0.6"
+    }
+}
