@@ -35,7 +35,7 @@ module.exports = function (env, argv) {
                     }],
                 },
                 {
-                    test: /\.html$/,
+                    test: /index\.html$/,
                     loader: "file-loader",
                     options: {
                         name: "index.html",
